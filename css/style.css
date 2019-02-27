@@ -1,0 +1,482 @@
+body {
+  font-size: 1.5rem;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+}
+
+.jumbotron p {
+  font-family: 'Happy Monkey', cursive;
+  color: white;
+  align-content: flex-end;
+  margin-top: 0;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.h1 {
+  font-size: 3rem;
+  /* color: #926890; */
+  /* color: black; */
+  color: white;
+  font-family: 'Happy Monkey', cursive;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 2px;
+}
+
+.h1-chatter {
+  font-size: 3rem;
+}
+
+ .h1-main {
+   text-align: center;
+   color: #926890;
+ }
+
+.card-img-top {
+  padding: 1rem;
+  /* border: 1px solid #926890; */
+  /* border: 1px solid #8E88B5; */
+}
+
+nav {
+  background-color: #E6E2DF;
+  font-size: 1.25rem;
+  font-family: 'Happy Monkey', cursive;
+}
+
+.card-group {
+  margin-bottom: 2rem;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-header {
+  padding: 0.5rem 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-header-pkg {
+  background-color: rgba(204, 184, 209, 0.4);
+}
+
+.card-body-pkg {
+  padding: 0.8rem;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #8E88B5;
+}
+
+.card-pkg {
+  width: 40%;
+  }
+
+@media only screen and (max-width: 1100px) {
+  .card-pkg {
+    width: 70%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card-pkg {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-info {
+  background-color: #CCFC92;
+  color: black;
+  border: 1px solid #CCFC92;
+}
+
+.btn-info:hover {
+  background-color: #CCFC92;
+  border: 1px solid #CCFC92;
+  color: black;
+  padding: 1rem 2.7rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .btn-info.btn-lg{
+    padding: 0.4rem 1.5rem;
+  }
+}
+
+
+.btn-chatter {
+  margin-top: 2rem;
+}
+
+.btn-chatter:hover {
+  border: 1px solid black;
+}
+
+.footer {
+  background-color: #E6E2DF;
+  height: 3rem;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    height: 2rem;
+  }
+}
+
+.social {
+  width: 49%;
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.legal {
+  width: 49%;
+  display: flex;
+  justify-content: flex-end;
+  vertical-align: middle;
+}
+
+.fab {
+  font-size: 2rem;
+  margin: 5px;
+  font-weight: bold;
+  /* background-color:  white; */
+}
+
+@media only screen and (max-width: 600px) {
+  .fab {
+    font-size: 1.5rem;
+    margin: 3px;
+  }
+}
+
+.fa-facebook {
+  color: #3b5998
+}
+
+.fa-twitter-square {
+  color: #1da1f2;
+}
+
+.fa-instagram {
+ color: #bc2a8d;
+}
+
+.footerLinks {
+  padding: 2px;
+  margin: 5px 10px;
+  /* font-weight: bold; */
+  display: flex;
+  align-items: center;
+}
+
+.footerLinks:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerLinks {
+    margin: 3px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  footer .footer {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+
+.main {
+  background-color: rgba(178, 227, 232, 0.5);
+  background-color: #008B96;
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.innerbox p {
+  font-family: 'Happy Monkey', cursive;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.box {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .main-wolf {
+  display: flex;
+}
+
+.mainwolf.innerbox {
+  flex-direction: column;
+} */
+
+.innerbox {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1100px) {
+  .innerbox {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .innerbox {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .main {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.card-gb, .card-minutes {
+  width: 40%;
+  margin-top: 2rem;
+}
+
+.card-freq {
+  width: 80%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .card-gb, .card-minutes, .card-freq {
+    width: 70%;
+  }
+}
+
+.card-gb-lone {
+  width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-gb, .card-minutes, .card-freq, card-gb-lone {
+    width: 100%;
+  }
+}
+
+
+
+
+
+.btn-lg {
+  margin-bottom: 2%;
+  padding: 0.8rem 2.5rem;
+}
+
+
+
+.form-b {
+  display: flex;
+  justify-content: center;
+  width: 73%;
+  margin-right: 14%;
+  margin-left: 14%;
+}
+
+@media only screen and (max-width: 900px) {
+  .form-b {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .form-b {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+#amount {
+  width: 100px;
+  height: 38px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 575px) {
+  #amount {
+    height: 34px;
+  }
+}
+
+h3 {
+  margin: 0 15px;
+  height: 38px
+}
+
+@media only screen and (max-width: 575px) {
+  h3 {
+    font-size: 1.25rem;
+  }
+}
+
+
+.btn-success {
+  margin-bottom: 2px;
+  background-color: #BEFBFF;
+  border: 1px solid #58C1CC;
+  color: black;
+}
+
+.btn-success:hover {
+  background-color: #58C1CC;
+  border: 1px solid #58C1CC;
+}
+
+::-webkit-input-placeholder {
+font-size: 20px !important;
+}
+
+:-moz-placeholder {
+font-size: 20px !important;
+}
+
+/*--for IE10 support--*/
+:-ms-input-placeholder {
+font-size: 20px !important;
+}
+
+.contact_us {
+    margin-bottom: 0px;
+    background-color: #CCFC92;
+    height: 180px;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    font-size: 2.5rem;
+    color: #926890;
+    color: black;
+    font-family: 'Happy Monkey', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-contact {
+    display: none;
+  }
+
+  .contact_us {
+    height: 125px;
+  }
+}
+
+.contact_us_form {
+  display: flex;
+  justify-content: center;
+  background-color: #008B96;
+}
+
+.jumbotron-chatter {
+  background-image: url(../images/urban-raccoons-fence_2018-07-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-position: 50% 46%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.jumbotron-main {
+  background-image: url(../images/raccoons_main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-position: 50% 70%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.jumbotron-lonewolf {
+  background-image: url(../images/lonewolf_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-position: 40% 28%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.jumbotron-family {
+  background-image: url(../images/family2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-position: 40% 52%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-family: 'Happy Monkey', cursive;
+  color: #926890;
+}
+
+
+@media only screen and (max-width: 720px) {
+  .form-check {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+  .jumbotron-chatter, .jumbotron-main, .jumbotron-lonewolf {
+    height: 220px;
+  }
+
+  .h1-main {
+    font-size: 1.75rem;
+  }
+
+  .jumbotron p {
+    font-size: 1rem;
+  }
+
+  .card-body {
+    font-size: 1.25rem;
+  }
+}
+
+
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
